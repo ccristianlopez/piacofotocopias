@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: burlywood;
+}
+section{
+    background-color: darkmagenta;
+}
+.columnas{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+li{
+    float: left;
+    list-style: none;
+}
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+.redes p{
+font-size: 15px;
+padding: 8px 20px
+
+}
+.insta{
+    color: palevioletred
+}
+.face{
+    color:blue
+}
+.whatsapp{
+    color:chartreuse
+}
+.menu a{
+    display: block;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: blue;
+    background-color: burlywood;
+    font-size: 20px; 
+    text-decoration: none;
+    padding: 8px 150px
+
+}
+p{
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 20px; 
+    text-align: left;
+}
+.final p{   
+     font-size: 15px;
+}
+.container1{
+    background-color: darkmagenta;
+    display: grid;
+   grid-template-columns: auto auto;
+   place-items: center;
+}
+footer{
+    background-color: darkseagreen;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto 15rem auto;
+    place-items: center;
+    padding: 100px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 320px) {
+    .final{
+        width: auto;
+    }
+}
